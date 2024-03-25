@@ -1,0 +1,38 @@
+#app{
+    width:300px;
+    margin: auto;
+    margin-top: 250px;
+    background-color: rgb(52, 51, 51);
+    border-radius: 5px;
+}
+.display{
+    padding: 20px;
+
+}
+.display input{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 45px;
+   text-align: right;
+}
+.keypad{
+    padding: 20px;
+}
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.row input{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 10px;
+    color:aliceblue;
+    font-size: 20px;
+}
